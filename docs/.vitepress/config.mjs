@@ -21,6 +21,7 @@ export default defineConfig({
           { text: 'Vue3 基础', link: '/frontend/vue3/' },
           { text: 'TypeScript', link: '/frontend/typescript/' },
           { text: 'Vite 构建工具', link: '/frontend/vite/' },
+        { text: '性能优化', link: '/frontend/performance' },
           { text: '状态管理', link: '/frontend/state-management/' }
         ]
       },
@@ -90,6 +91,14 @@ export default defineConfig({
           items: [
             { text: 'Vite', link: '/frontend/vite/' },
             { text: '插件生态', link: '/frontend/vite/plugins' }
+          ]
+        },
+        {
+          text: '性能优化',
+          items: [
+            { text: '性能优化指南', link: '/frontend/performance' },
+            { text: '构建优化', link: '/frontend/build-optimization' },
+            { text: '运行时优化', link: '/frontend/runtime-optimization' }
           ]
         }
       ],
