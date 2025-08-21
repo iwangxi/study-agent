@@ -50,6 +50,7 @@ export default defineConfig({
           { text: '部署', link: '/devops/deployment/' }
         ]
       },
+      { text: '测试', link: '/testing/' },
       { text: '实战项目', link: '/projects/' },
       { text: '面试指南', link: '/interview/' }
     ],
@@ -145,6 +146,18 @@ export default defineConfig({
             { text: '后端面试题', link: '/interview/backend' },
             { text: '系统设计', link: '/interview/system-design' },
             { text: '项目经验', link: '/interview/project-experience' }
+          ]
+        }
+      ],
+      '/testing/': [
+        {
+          text: '测试指南',
+          items: [
+            { text: '测试概览', link: '/testing/' },
+            { text: '单元测试', link: '/testing/unit' },
+            { text: '集成测试', link: '/testing/integration' },
+            { text: 'E2E 测试', link: '/testing/e2e' },
+            { text: '测试最佳实践', link: '/testing/best-practices' }
           ]
         }
       ],
