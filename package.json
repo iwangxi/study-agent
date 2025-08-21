@@ -1,0 +1,36 @@
+{
+  "name": "nestjs-vue3-fullstack-guide",
+  "version": "1.0.0",
+  "description": "NestJS + Vue3 全栈开发学习指南 - 专注于现代化全栈技术栈的完整学习资源",
+  "main": "index.js",
+  "scripts": {
+    "docs:dev": "vitepress dev docs",
+    "docs:build": "vitepress build docs",
+    "docs:preview": "vitepress preview docs",
+    "deploy": "npm run docs:build && gh-pages -d docs/.vitepress/dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iwangxi/study-agent.git"
+  },
+  "keywords": [
+    "nestjs",
+    "vue3",
+    "typescript",
+    "typeorm",
+    "fullstack",
+    "tutorial",
+    "learning",
+    "guide"
+  ],
+  "author": "iwangxi",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/iwangxi/study-agent/issues"
+  },
+  "homepage": "https://iwangxi.github.io/study-agent/",
+  "devDependencies": {
+    "gh-pages": "^6.3.0",
+    "vitepress": "^1.6.4"
+  }
+}
