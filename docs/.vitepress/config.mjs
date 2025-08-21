@@ -92,6 +92,41 @@ export default defineConfig({
           ]
         }
       ],
+      '/devops/': [
+        {
+          text: 'DevOps 实践',
+          items: [
+            { text: 'Docker 容器化', link: '/devops/docker' },
+            { text: 'CI/CD 流程', link: '/devops/cicd' },
+            { text: '部署策略', link: '/devops/deployment' },
+            { text: '监控运维', link: '/devops/monitoring' }
+          ]
+        }
+      ],
+      '/projects/': [
+        {
+          text: '实战项目',
+          items: [
+            { text: '项目概览', link: '/projects/' },
+            { text: '个人博客系统', link: '/projects/blog-system' },
+            { text: '待办事项管理', link: '/projects/todo-app' },
+            { text: '电商管理后台', link: '/projects/ecommerce-admin' },
+            { text: '在线教育平台', link: '/projects/education-platform' }
+          ]
+        }
+      ],
+      '/interview/': [
+        {
+          text: '面试指南',
+          items: [
+            { text: '面试准备', link: '/interview/' },
+            { text: '前端面试题', link: '/interview/frontend' },
+            { text: '后端面试题', link: '/interview/backend' },
+            { text: '系统设计', link: '/interview/system-design' },
+            { text: '项目经验', link: '/interview/project-experience' }
+          ]
+        }
+      ],
       '/backend/': [
         {
           text: 'NestJS 框架',
@@ -102,7 +137,8 @@ export default defineConfig({
             { text: '模块系统', link: '/backend/nestjs/modules' },
             { text: '中间件', link: '/backend/nestjs/middleware' },
             { text: '守卫与拦截器', link: '/backend/nestjs/guards' },
-            { text: '异常处理', link: '/backend/nestjs/exceptions' }
+            { text: '异常处理', link: '/backend/nestjs/exceptions' },
+            { text: '微服务架构', link: '/backend/nestjs/microservices' }
           ]
         },
         {
