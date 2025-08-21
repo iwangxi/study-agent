@@ -73,7 +73,8 @@ export default defineConfig({
             { text: 'Vue3 核心', link: '/frontend/vue3/' },
             { text: 'Composition API', link: '/frontend/vue3/composition-api' },
             { text: 'Vue Router', link: '/frontend/vue3/router' },
-            { text: 'Pinia 状态管理', link: '/frontend/vue3/pinia' }
+            { text: 'Pinia 状态管理', link: '/frontend/vue3/pinia' },
+            { text: 'Vue3 高级特性', link: '/frontend/vue3/advanced' }
           ]
         },
         {
@@ -100,6 +101,17 @@ export default defineConfig({
             { text: 'CI/CD 流程', link: '/devops/cicd' },
             { text: '部署策略', link: '/devops/deployment' },
             { text: '监控运维', link: '/devops/monitoring' }
+          ]
+        }
+      ],
+      '/database/': [
+        {
+          text: '数据库技术',
+          items: [
+            { text: 'PostgreSQL', link: '/database/postgresql' },
+            { text: 'MySQL', link: '/database/mysql' },
+            { text: 'Redis', link: '/database/redis' },
+            { text: '数据库设计', link: '/database/design' }
           ]
         }
       ],
