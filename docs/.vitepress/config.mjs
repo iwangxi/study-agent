@@ -15,13 +15,15 @@ export default defineConfig({
     nav: [
       { text: '首页', link: '/' },
       { text: '学习路线', link: '/roadmap/' },
-      { 
-        text: '前端技术', 
+      {
+        text: '前端技术',
         items: [
+          { text: 'React 生态', link: '/frontend/react/' },
+          { text: 'Next.js 框架', link: '/frontend/nextjs/' },
           { text: 'Vue3 基础', link: '/frontend/vue3/' },
           { text: 'TypeScript', link: '/frontend/typescript/' },
           { text: 'Vite 构建工具', link: '/frontend/vite/' },
-        { text: '性能优化', link: '/frontend/performance' },
+          { text: '性能优化', link: '/frontend/performance' },
           { text: '状态管理', link: '/frontend/state-management/' }
         ]
       },
@@ -69,6 +71,21 @@ export default defineConfig({
         }
       ],
       '/frontend/': [
+        {
+          text: 'React 生态',
+          items: [
+            { text: 'React 基础', link: '/frontend/react/' },
+            { text: 'React Hooks', link: '/frontend/react/hooks' },
+            { text: '性能优化', link: '/frontend/react/performance' },
+            { text: '状态管理', link: '/frontend/react/state-management' }
+          ]
+        },
+        {
+          text: 'Next.js 框架',
+          items: [
+            { text: 'Next.js 入门', link: '/frontend/nextjs/' }
+          ]
+        },
         {
           text: 'Vue3 生态',
           items: [
