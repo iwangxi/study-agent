@@ -60,19 +60,19 @@ npm install
 ### 开发服务器
 
 ```bash
-npm run dev
+npm run dev # 或 npm run docs:dev
 ```
 
 ### 构建生产版本
 
 ```bash
-npm run build
+npm run build # 或 npm run docs:build
 ```
 
 ### 预览构建结果
 
 ```bash
-npm run preview
+npm run preview # 或 npm run docs:preview
 ```
 
 ## 🚀 部署

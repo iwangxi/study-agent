@@ -4,6 +4,9 @@
   "description": "Node.js全栈开发学习指南 - 从零基础到高级水平的完整学习路径",
   "main": "index.js",
   "scripts": {
+    "dev": "npm run docs:dev",
+    "build": "npm run docs:build",
+    "preview": "npm run docs:preview",
     "docs:dev": "vitepress dev docs",
     "docs:build": "vitepress build docs",
     "docs:preview": "vitepress preview docs",
