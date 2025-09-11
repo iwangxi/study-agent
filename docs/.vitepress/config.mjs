@@ -52,6 +52,12 @@ export default defineConfig({
           { text: '部署', link: '/devops/deployment/' }
         ]
       },
+      {
+        text: 'AI 技术',
+        items: [
+          { text: 'OCR 识别', link: '/ocr/' }
+        ]
+      },
       { text: '测试', link: '/testing/' },
       { text: '实战项目', link: '/projects/' },
       { text: '面试指南', link: '/interview/' }
@@ -175,6 +181,15 @@ export default defineConfig({
             { text: '集成测试', link: '/testing/integration' },
             { text: 'E2E 测试', link: '/testing/e2e' },
             { text: '测试最佳实践', link: '/testing/best-practices' }
+          ]
+        }
+      ],
+      '/ocr/': [
+        {
+          text: 'OCR 识别',
+          items: [
+            { text: 'OCR 概览', link: '/ocr/' },
+            { text: '学习资料', link: '/ocr/resources' }
           ]
         }
       ],
